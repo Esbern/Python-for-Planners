@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 def generate_output():
     result = ""  # Create an empty string to store the output
-    for i in range(2, 13, 3):
+    for i in range(2, 11, 3):
         result += f"{i}\n"  # Append each number followed by a newline
     return result
 
